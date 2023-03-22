@@ -2,3 +2,5 @@
 /*.yml              export-ignore
 /*.xml              export-ignore
 /*.xml.dist         export-ignore
+
+/*.md               export-ignore
