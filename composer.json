@@ -1,0 +1,43 @@
+{
+    "name": "arokettu/system-clock",
+    "description": "The smallest PSR-20 implementation",
+    "keywords": ["clock", "psr-20", "smallest"],
+    "type": "library",
+    "license": "MIT-0",
+    "authors": [
+        {
+            "name": "Anton Smirnov",
+            "email": "sandfox@sandfox.me",
+            "homepage": "https://sandfox.me/",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "issues": "https://gitlab.com/sandfox/php-system-clock/-/issues",
+        "source": "https://gitlab.com/sandfox/php-system-clock",
+        "chat": "https://gitter.im/arokettu/community"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Arokettu\\SystemClock\\": ""
+        }
+    },
+    "require": {
+        "php": "^7.0 | ^8.0",
+        "psr/clock": "^1.0"
+    },
+    "require-dev": {
+        "sandfox.dev/code-standard": "^1.2022.06.29",
+        "squizlabs/php_codesniffer": "*",
+        "vimeo/psalm": "^4 | ^5"
+    },
+    "provide": {
+        "psr/clock-implementation": "1.0"
+    }
+}
