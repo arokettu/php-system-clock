@@ -25,6 +25,8 @@ $clockPsrAwareValidator->isValid($clock);
 For a specific example, `lcobucci/jwt`:
 
 ```php
+<?php
+
 use Arokettu\SystemClock\SystemClock;
 use Lcobucci\JWT\Configuration;
 use Lcobucci\JWT\Signer\Hmac\Sha256;

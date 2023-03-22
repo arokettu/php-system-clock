@@ -12,9 +12,11 @@
             "role": "developer"
         }
     ],
+    "homepage": "https://sandfox.dev/php/clock/system-clock.html",
     "support": {
         "issues": "https://gitlab.com/sandfox/php-system-clock/-/issues",
         "source": "https://gitlab.com/sandfox/php-system-clock",
+        "docs": "https://arokettu-clock.readthedocs.io/en/latest/system-clock.html",
         "chat": "https://gitter.im/arokettu/community"
     },
     "config": {
