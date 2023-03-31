@@ -10,6 +10,7 @@ use Psr\Clock\ClockInterface;
 
 /**
  * @psalm-api
+ * @license MIT-0
  */
 final class SystemClock implements ClockInterface
 {
