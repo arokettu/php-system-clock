@@ -4,6 +4,8 @@
 
 ### 2.0.0
 
+*Jun 2, 2023*
+
 * `\Arokettu\SystemClock\SystemClock` was renamed to `\Arokettu\Clock\SystemClock`
   for deduplication in `arokettu/clock`
 
