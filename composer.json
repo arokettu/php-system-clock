@@ -26,9 +26,9 @@
         "sort-packages": true
     },
     "autoload": {
-        "psr-4": {
-            "Arokettu\\SystemClock\\": ""
-        }
+        "classmap": [
+            "SystemClock.php"
+        ]
     },
     "require": {
         "php": "^7.0 | ^8.0",
@@ -41,5 +41,8 @@
     },
     "provide": {
         "psr/clock-implementation": "1.0"
+    },
+    "conflict": {
+        "arokettu/clock": "< 1.2 | >=2.0 <2.2"
     }
 }

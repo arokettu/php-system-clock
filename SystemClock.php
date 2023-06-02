@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arokettu\SystemClock;
+namespace Arokettu\Clock;
 
 use DateTimeImmutable;
 use DateTimeZone;
