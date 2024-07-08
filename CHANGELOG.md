@@ -2,6 +2,12 @@
 
 ## 2.x
 
+### 2.0.1
+
+*Jul 8, 2024*
+
+* Fix PHP 8.4 deprecation warning
+
 ### 2.0.0
 
 *Jun 2, 2023*
