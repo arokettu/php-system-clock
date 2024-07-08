@@ -17,8 +17,15 @@ final class SystemClock implements ClockInterface
     /** @var DateTimeZone|null */
     private $timeZone;
 
-    public function __construct(DateTimeZone $timeZone = null)
+    /**
+     * @param DateTimeZone|null $timeZone
+     */
+    public function __construct($timeZone = null)
     {
+        if ($timeZone !== null && !$timeZone instanceof DateTimeZone) {
+            throw new \InvalidArgumentException('$timeZone must be an instance of DateTimeZone or null');
+        }
+
         $this->timeZone = $timeZone;
     }
 
