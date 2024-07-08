@@ -6,6 +6,7 @@ namespace Arokettu\Clock;
 
 use DateTimeImmutable;
 use DateTimeZone;
+use InvalidArgumentException;
 use Psr\Clock\ClockInterface;
 
 /**
@@ -23,7 +24,7 @@ final class SystemClock implements ClockInterface
     public function __construct($timeZone = null)
     {
         if ($timeZone !== null && !$timeZone instanceof DateTimeZone) {
-            throw new \InvalidArgumentException('$timeZone must be an instance of DateTimeZone or null');
+            throw new InvalidArgumentException('$timeZone must be an instance of DateTimeZone or null');
         }
 
         $this->timeZone = $timeZone;
