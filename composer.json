@@ -1,6 +1,6 @@
 {
     "name": "arokettu/system-clock",
-    "description": "The smallest PSR-20 implementation",
+    "description": "The smallest PSR-20 implementation (PHP 7.0 and later)",
     "keywords": ["clock", "psr-20", "smallest"],
     "type": "library",
     "license": "MIT-0",
@@ -35,7 +35,8 @@
         "psr/clock": "^1.0"
     },
     "require-dev": {
-        "sandfox.dev/code-standard": "^1.2022.06.29",
+        "psy/psysh": "^0.12.4",
+        "sandfox.dev/code-standard": "^1.2024.07.05",
         "squizlabs/php_codesniffer": "*",
         "vimeo/psalm": "^4 | ^5"
     },

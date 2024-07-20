@@ -16,17 +16,20 @@ use Psr\Clock\ClockInterface;
 final class SystemClock implements ClockInterface
 {
     /** @var DateTimeZone|null */
-    private $timeZone;
+    private $timeZone = null;
 
     /**
      * @param DateTimeZone|null $timeZone
      */
     public function __construct($timeZone = null)
     {
-        if ($timeZone !== null && !$timeZone instanceof DateTimeZone) {
-            throw new InvalidArgumentException('$timeZone must be an instance of DateTimeZone or null');
+        if ($timeZone !== null) {
+            $this->setTimeZone($timeZone);
         }
+    }
 
+    private function setTimeZone(DateTimeZone $timeZone)
+    {
         $this->timeZone = $timeZone;
     }
 
