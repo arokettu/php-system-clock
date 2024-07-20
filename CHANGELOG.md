@@ -2,6 +2,12 @@
 
 ## 2.x
 
+### 2.0.2
+
+*Jul 20, 2024*
+
+* Use type hint to check the type
+
 ### 2.0.1
 
 *Jul 8, 2024*
