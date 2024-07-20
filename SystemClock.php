@@ -6,7 +6,6 @@ namespace Arokettu\Clock;
 
 use DateTimeImmutable;
 use DateTimeZone;
-use InvalidArgumentException;
 use Psr\Clock\ClockInterface;
 
 /**
