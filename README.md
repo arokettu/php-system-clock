@@ -40,6 +40,10 @@ $cfg->validator()->assert(
 );
 ```
 
+Read full documentation here: <https://sandfox.dev/php/clock/system-clock.html>
+
+Also on Read the Docs: https://arokettu-clock.readthedocs.io/en/latest/system-clock.html
+
 ## Support
 
 Please file issues on our main repo at GitLab: <https://gitlab.com/sandfox/php-system-clock/-/issues>
