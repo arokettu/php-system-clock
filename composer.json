@@ -45,6 +45,6 @@
         "psr/clock-implementation": "1.0"
     },
     "conflict": {
-        "arokettu/clock": "< 1.2 | >=2.0 <2.2"
+        "arokettu/clock": "< 1.2 || >=2.0 <2.2"
     }
 }
