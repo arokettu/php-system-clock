@@ -2,6 +2,13 @@
 
 ## 2.x
 
+### 2.1.0
+
+*Sep 6, 2025*
+
+* Added type declarations to all methods
+* PHP 7.1 is required
+
 ### 2.0.2
 
 *Jul 20, 2024*
