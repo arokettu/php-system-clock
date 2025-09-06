@@ -19,19 +19,12 @@ use Psr\Clock\ClockInterface;
 final class SystemClock implements ClockInterface
 {
     /** @var DateTimeZone|null */
-    private $timeZone = null;
+    private $timeZone;
 
     /**
      * @param DateTimeZone|null $timeZone
      */
-    public function __construct($timeZone = null)
-    {
-        if ($timeZone !== null) {
-            $this->setTimeZone($timeZone);
-        }
-    }
-
-    private function setTimeZone(DateTimeZone $timeZone)
+    public function __construct(?DateTimeZone $timeZone = null)
     {
         $this->timeZone = $timeZone;
     }
