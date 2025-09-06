@@ -1,8 +1,20 @@
 # PSR-20 System Clock Library
 
-[![Packagist](https://img.shields.io/packagist/v/arokettu/system-clock.svg?style=flat-square)](https://packagist.org/packages/arokettu/system-clock)
-[![PHP](https://img.shields.io/packagist/php-v/arokettu/system-clock.svg?style=flat-square)](https://packagist.org/packages/arokettu/system-clock)
-[![Packagist](https://img.shields.io/github/license/arokettu/php-system-clock.svg?style=flat-square)](LICENSE.md)
+[![Packagist]][Packagist Link]
+[![PHP]][Packagist Link]
+[![License]][License Link]
+[![Gitlab pipeline status]][Gitlab Link]
+[![Downloads]][Packagist Link]
+
+[Packagist]: https://img.shields.io/packagist/v/arokettu/system-clock.svg?style=flat-square
+[PHP]: https://img.shields.io/packagist/php-v/arokettu/system-clock.svg?style=flat-square
+[License]: https://img.shields.io/github/license/arokettu/php-system-clock.svg?style=flat-square
+[Gitlab pipeline status]: https://img.shields.io/gitlab/pipeline/sandfox/php-system-clock/master.svg?style=flat-square
+[Downloads]: https://img.shields.io/packagist/dm/arokettu/system-clock?style=flat-square
+
+[Packagist Link]: https://packagist.org/packages/arokettu/system-clock
+[License Link]: LICENSE.md
+[Gitlab Link]: https://gitlab.com/sandfox/php-system-clock/-/pipelines
 
 The smallest possible [PSR-20](https://www.php-fig.org/psr/psr-20/) implementation for the case when you don't need
 all the fancy testing clock classes.
