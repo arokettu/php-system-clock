@@ -31,12 +31,12 @@
         ]
     },
     "require": {
-        "php": "^7.0 | ^8.0",
+        "php": "^7.0 || ^8.0",
         "psr/clock": "^1.0"
     },
     "require-dev": {
         "psy/psysh": "*",
-        "sandfox.dev/code-standard": "^1.2024.07.05",
+        "sandfox.dev/code-standard": "^1.2025.08.31",
         "squizlabs/php_codesniffer": "*",
         "vimeo/psalm": "^4 | ^5"
     },

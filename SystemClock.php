@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @copyright 2023 Anton Smirnov
+ * @license MIT-0 https://spdx.org/licenses/MIT-0.html
+ */
+
 declare(strict_types=1);
 
 namespace Arokettu\Clock;
@@ -10,7 +15,6 @@ use Psr\Clock\ClockInterface;
 
 /**
  * @psalm-api
- * @license MIT-0
  */
 final class SystemClock implements ClockInterface
 {
